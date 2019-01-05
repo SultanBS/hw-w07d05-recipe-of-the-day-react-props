@@ -1,0 +1,37 @@
+
+
+.Recipes{
+    
+   background-color: lightblue;
+   width: 49%;
+   height: 100vh;
+   float: left;
+}
+
+.Recipes > h1 {
+    text-align: center;
+}
+
+.RecipeOfTheDay{
+padding-left: 5px;
+background-color: lightgreen;
+width: 49%;
+height: 100vh;
+float: right;
+
+}
+.RecipeOfTheDay > .r, h3{
+    text-align: center;
+}
+
+.RecipeOfTheDay > .ingredient > p{
+    margin: 0px;
+}
+
+.RecipeOfTheDay > .ingredient {
+    background-color: lightgray;
+}
+
+.Recipes > .Recipe > ul {
+    list-style-type: none;  
+}
